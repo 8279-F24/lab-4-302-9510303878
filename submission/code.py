@@ -16,8 +16,7 @@ while True:
     print("3: Blue color")
     print("Press 'q' to quit")
 
-    # input section for user
-    user_input = input("Enter preference: ")
+    user_input = input("Enter preference : ")
 
     if user_input.lower() == 'q':
         print("Exiting the program.")
@@ -37,6 +36,6 @@ while True:
     elif choice == 3:
         set_color((0, 0, 255))  
     else: 
-        print("Invalid choice. Please enter 1, 2, or 3.")
+        print("Invalid choice. Please enter any up from 1, 2, or 3.")
     
     time.sleep(0.5)
